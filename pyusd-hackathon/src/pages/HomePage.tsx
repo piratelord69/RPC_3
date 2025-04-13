@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const HomePage: React.FC = () => (
-  <PageWrapper title="Welcome to Our PYUSD Solution" description="A cutting-edge solution for the PYUSD Hackathon.">
+  <PageWrapper title="Welcome to My PYUSD Solution" description="A cutting-edge solution for the PYUSD Hackathon.">
     <Section title="Key Features">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card>
