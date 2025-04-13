@@ -3,6 +3,7 @@ import React from 'react';
 import PageWrapper from '@/components/PageWrapper';
 import Section from '@/components/Section';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { CheckWallet } from "@/components/CheckWallet";
 
 const FeaturesPage: React.FC = () => (
   <PageWrapper title="Features" description="Explore the key features of our solution.">
@@ -62,6 +63,12 @@ const FeaturesPage: React.FC = () => (
         </Card>
       </div>
     </Section>
+    <Section title="Sanction Checker">
+  <p className="text-gray-700 dark:text-gray-300 mb-4">
+    Enter an Ethereum wallet address to check if it has interacted with OFAC-sanctioned addresses.
+  </p>
+  <CheckWallet />
+</Section>
   </PageWrapper>
 );
 
